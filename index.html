@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <!-- No judging, only just learning -->
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>My Webpage</title>
 	<meta name="description" content="Testing web page programming">
 	<meta name="keywords" content="HTML,CSS,XML,JavaScript,testing,learning,HTML5">
 	<meta name="author" content="Erik Macias">
 	<meta charset="UTF-8"> <!-- HTML 5 -->
-	<style>
-		h1 {color:blue;text-align:center;font-family:verdana;}
-		table {style="width:300px";border:1px solid black;}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-	<div id="container" style="width:1000px">
+	<div id="page">
 		<div id="header">
-			<h1>This is my first HTML document</h1>
-		</div> <!-- End of header -->
+			<h1>This is my first HTML Document</h1>
+			<h2>For the sake of learning</h2>
+		</div> <!-- end of header -->
 		
-		<div id="menu" style="width:300px;float:left;">
-			<b><a href="index.html">home</a></b><br/>
-			<a href="resume/resume.html">resume</a><br/>
-			<a href="transcript.html">transcript</a><br/>
-			<a href="game.html">game</a>
-		</div> <!-- End of menu -->
+		<div id="bar">
+			<div class="link"><a href="index.html">home</a></div>
+            <div class="link"><a href="resume/resume.html">resume</a></div>
+            <div class="link"><a href="transcript.html">transcript</a></div>
+            <div class="link"><a href="game.html">game</a></div>
+			<div class="link"><a href="#">about</a></div>
+            <div class="link"><a href="#">contact</a></div>
+		</div> <!-- end of bar -->
 		
-		<div id="content" style="background-color:#EEEEEE;float:left">
-			<span style="font-size:15px;letter-spacing:12px">About me:</span>
+		<div class="contentTitle"><h1>Random Tile</h1></div>
+        <div class="contentText">
 			<p>
-				My name is Erik Macias and I currently attend <abbr style="background-color:black;color:gold" title="San Jose State University">SJSU</abbr><br/>
-				This page only intened to surve as a test site where I can learn some simple web programming. <br/>
-				As a graduating senior who does&lsquo;t&rsquo; know any web progamming, I thought its about <br/>
-				time for me to start. 
+			My name is Erik Macias and I currently attend <abbr style="background-color:black;color:gold" title="San Jose State University">SJSU</abbr> 
+			This page only intened to surve as a test site where I can learn some simple web programming. As a graduating senior who does&lsquo;t&rsquo; 
+			know any web progamming, I thought its about time for me to start.  
 			</p>
-		</div> <!-- End of content -->
+        </div> <!-- end of contentText -->
 		
 		<div id="footer" style="text-align:center">
 			Copyright &copy; LazyBoyProductions
-		</div> <!-- End of footer ->
-	</div> <!-- End of container -->
+		</div> <!-- End of footer -->
+		
+	</div> <!-- end of page -->
 </body>
 </html>
