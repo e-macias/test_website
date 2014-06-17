@@ -40,7 +40,7 @@ p {text-align: left;}
   height:auto;
   position: relative; 
   overflow: hidden; 
-  background: url("/images/background.png") repeat-y;
+  background: url(/images/background.png) repeat-y;
   width: 738px;
 }
 
